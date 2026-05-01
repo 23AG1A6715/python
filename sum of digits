@@ -1,4 +1,4 @@
-#sum of digits
+#sum of digits using whileloop
 a=int(input("Enter num: "))
 sum=0;
 while(a!=0):
@@ -7,3 +7,10 @@ while(a!=0):
   a=a//10
 
 print("sum",sum)
+
+
+
+#sum of digit in easy way(no while loop)
+a=2026
+b=[int(i) for i in str(a)]
+print(sum(b))
