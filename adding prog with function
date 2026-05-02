@@ -1,3 +1,5 @@
+#first write the bottom four lines
+
 def a1():
   n1=10
   n2=20
@@ -10,6 +12,7 @@ def a3():
   return n1+n2
 def a4(a,b):
    return(a+b)
+
 a1()
 a2(100,200)
 res=a3()
