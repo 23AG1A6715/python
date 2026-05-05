@@ -1,0 +1,38 @@
+country="India"  #it is a full global variable
+class ace:
+  college="ACE"
+  def give_details(self,a,b,c,d):
+    self.tot=a+b+c
+    self.name=d
+  def display(self):
+    print("1.Name: ",self.name)
+    print("2.Marks: ",self.tot)
+    print("3.College: ",ace.college)
+    print("4.Country: ", country)
+
+
+class snist:
+    college="SNIST"
+    def set_dim(self,a,b,c,d):
+      self.tot=a+b+c
+      self.name=d
+    def display(self):
+      print("1.Name: ",self.name)
+      print("2.Marks: ",self.tot)
+      print("3.College: ",snist.college)
+      print("4.Country: ", country)
+
+
+
+a=ace()
+a2=ace()
+b=snist()
+b2=snist()
+a.give_details(20,30,40,"Sravan")# in this give details and so on it maybe our wish same for below 3 also
+a2.give_details(30,50,10,"Naveen")
+b.set_dim(30,60,10,"Vipin")
+b2.set_dim(10,80,20,"Sandeep")
+a.display()
+a2.display()
+b.display()
+b2.display()
