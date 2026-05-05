@@ -1,7 +1,7 @@
 class CIRCLE:
   def __init__(self):
     x=int(input("Enter radius: "))
-    self.radius=x8
+    self.radius=x
   def display(self):
     print("Area OF Circle ",3.14*self.radius**2)
 
