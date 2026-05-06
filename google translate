@@ -6,3 +6,6 @@ a=input("Enter text you want to convert : ")
 b=input("Enter target Language : ")
 res=t.translate(a,dest=b)
 print(res.text)
+
+
+#for telugu type te and for hindi hi
